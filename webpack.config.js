@@ -17,9 +17,9 @@ function configFunc(env, argv) {
     devtool: isDevMode ? 'eval-source-map' : false,
     context: path.resolve(__dirname, './src'),
     entry: {
-      options: './options/index.js',
-      popup: './popup/index.js',
-      background: './background/index.js',
+      // options: './options/index.js',
+      // popup: './popup/index.js',
+      // background: './background/index.js',
       contentScripts: './contentScripts/index.js',
     },
     output: {
@@ -101,18 +101,18 @@ function configFunc(env, argv) {
         { from: 'assets', to: 'assets' },
         { from: 'manifest.json', to: 'manifest.json', flatten: true },
       ]),
-      new HtmlWebpackPlugin({
-        title: 'Options',
-        template: './index.html',
-        filename: 'options.html',
-        chunks: ['options'],
-      }),
-      new HtmlWebpackPlugin({
-        title: 'Popup',
-        template: './index.html',
-        filename: 'popup.html',
-        chunks: ['popup'],
-      }),
+      // new HtmlWebpackPlugin({
+      //   title: 'Options',
+      //   template: './index.html',
+      //   filename: 'options.html',
+      //   chunks: ['options'],
+      // }),
+      // new HtmlWebpackPlugin({
+      //   title: 'Popup',
+      //   template: './index.html',
+      //   filename: 'popup.html',
+      //   chunks: ['popup'],
+      // }),
     ],
   }
 

@@ -1,12 +1,12 @@
 {
   "author": {
-    "email": "mubaidr@gmail.com",
-    "name": "Muhammad Ubaid Raza",
-    "url": "https://mubaidr.github.io/"
+    "email": "tafekih@outlook.fr",
+    "name": "Taoufik Fekih",
+    "url": "https://github.com/FekihTaoufik"
   },
   "dependencies": {
     "bulma-fluent": "^0.3.20",
-    "vue": "^2.6.11"
+    "jquery": "^3.4.1"
   },
   "description": "vue-chrome-extension-boilerplate",
   "devDependencies": {
@@ -44,7 +44,7 @@
     "webpack-extension-reloader": "^1.1.4"
   },
   "license": "MIT",
-  "name": "vue-chrome-extension-boilerplate",
+  "name": "Yanify",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mubaidr/vue-chrome-extension-boilerplate.git"
